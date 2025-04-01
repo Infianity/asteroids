@@ -5,6 +5,7 @@ from constants import *
 from player import Player
 from shot import Shot
 
+
 class Asteroid(CircleShape):
     def __init__(self, x, y, radius):
         super().__init__(x, y, radius)
